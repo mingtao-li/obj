@@ -26,14 +26,6 @@
       state: present
       provider: "{{ cli }}"
 
-#  - name: "Config IBMGT_test, set address family is ipv4,rd=100:1"
-#    ce_vrf_af:
-#     vrf: IBMGT_test
-#     vrf_aftype: v4
-#     route_distinguisher: 200:1
-#     state: present
-#     provider: "{{ cli }}"
-
 
 #  - name: "Configure acl named for-nms-vty"
 #    ce_config:
